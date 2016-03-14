@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        style="@style/editText_edit"
+        android:id="@+id/editText_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"/>
+    <EditText
+        style="@style/editText_edit"
+        android:id="@+id/editText_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"/>
+    <EditText
+        style="@style/editText_edit"
+        android:id="@+id/editText_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/gender"/>
+    <EditText
+        style="@style/editText_edit"
+        android:id="@+id/editText_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"/>
+    <EditText
+        style="@style/editText_edit"
+        android:id="@+id/editText_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/phone_number"/>
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="OnClickAccept"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/create"/>
+
+</LinearLayout>
